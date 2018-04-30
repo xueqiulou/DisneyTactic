@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		396D87482096A7C8003781BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 396D87472096A7C8003781BB /* AppDelegate.m */; };
+		396D874B2096A7C8003781BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 396D874A2096A7C8003781BB /* ViewController.m */; };
+		396D874E2096A7C8003781BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396D874C2096A7C8003781BB /* Main.storyboard */; };
+		396D87502096A7C8003781BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 396D874F2096A7C8003781BB /* Assets.xcassets */; };
+		396D87532096A7C8003781BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396D87512096A7C8003781BB /* LaunchScreen.storyboard */; };
+		396D87562096A7C8003781BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 396D87552096A7C8003781BB /* main.m */; };
+		396D87602096A7C8003781BB /* DisneyTacticTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 396D875F2096A7C8003781BB /* DisneyTacticTests.m */; };
+		396D876B2096A7C8003781BB /* DisneyTacticUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 396D876A2096A7C8003781BB /* DisneyTacticUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		396D875C2096A7C8003781BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 396D873B2096A7C8003781BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 396D87422096A7C8003781BB;
+			remoteInfo = DisneyTactic;
+		};
+		396D87672096A7C8003781BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 396D873B2096A7C8003781BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 396D87422096A7C8003781BB;
+			remoteInfo = DisneyTactic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		396D87432096A7C8003781BB /* DisneyTactic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisneyTactic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		396D87462096A7C8003781BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		396D87472096A7C8003781BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		396D87492096A7C8003781BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		396D874A2096A7C8003781BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		396D874D2096A7C8003781BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		396D874F2096A7C8003781BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		396D87522096A7C8003781BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		396D87542096A7C8003781BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		396D87552096A7C8003781BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		396D875B2096A7C8003781BB /* DisneyTacticTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisneyTacticTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		396D875F2096A7C8003781BB /* DisneyTacticTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisneyTacticTests.m; sourceTree = "<group>"; };
+		396D87612096A7C8003781BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		396D87662096A7C8003781BB /* DisneyTacticUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisneyTacticUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		396D876A2096A7C8003781BB /* DisneyTacticUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisneyTacticUITests.m; sourceTree = "<group>"; };
+		396D876C2096A7C8003781BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		396D87402096A7C8003781BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396D87582096A7C8003781BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396D87632096A7C8003781BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		396D873A2096A7C8003781BB = {
+			isa = PBXGroup;
+			children = (
+				396D87452096A7C8003781BB /* DisneyTactic */,
+				396D875E2096A7C8003781BB /* DisneyTacticTests */,
+				396D87692096A7C8003781BB /* DisneyTacticUITests */,
+				396D87442096A7C8003781BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		396D87442096A7C8003781BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				396D87432096A7C8003781BB /* DisneyTactic.app */,
+				396D875B2096A7C8003781BB /* DisneyTacticTests.xctest */,
+				396D87662096A7C8003781BB /* DisneyTacticUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		396D87452096A7C8003781BB /* DisneyTactic */ = {
+			isa = PBXGroup;
+			children = (
+				396D87462096A7C8003781BB /* AppDelegate.h */,
+				396D87472096A7C8003781BB /* AppDelegate.m */,
+				396D87492096A7C8003781BB /* ViewController.h */,
+				396D874A2096A7C8003781BB /* ViewController.m */,
+				396D874C2096A7C8003781BB /* Main.storyboard */,
+				396D874F2096A7C8003781BB /* Assets.xcassets */,
+				396D87512096A7C8003781BB /* LaunchScreen.storyboard */,
+				396D87542096A7C8003781BB /* Info.plist */,
+				396D87552096A7C8003781BB /* main.m */,
+			);
+			path = DisneyTactic;
+			sourceTree = "<group>";
+		};
+		396D875E2096A7C8003781BB /* DisneyTacticTests */ = {
+			isa = PBXGroup;
+			children = (
+				396D875F2096A7C8003781BB /* DisneyTacticTests.m */,
+				396D87612096A7C8003781BB /* Info.plist */,
+			);
+			path = DisneyTacticTests;
+			sourceTree = "<group>";
+		};
+		396D87692096A7C8003781BB /* DisneyTacticUITests */ = {
+			isa = PBXGroup;
+			children = (
+				396D876A2096A7C8003781BB /* DisneyTacticUITests.m */,
+				396D876C2096A7C8003781BB /* Info.plist */,
+			);
+			path = DisneyTacticUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		396D87422096A7C8003781BB /* DisneyTactic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396D876F2096A7C8003781BB /* Build configuration list for PBXNativeTarget "DisneyTactic" */;
+			buildPhases = (
+				396D873F2096A7C8003781BB /* Sources */,
+				396D87402096A7C8003781BB /* Frameworks */,
+				396D87412096A7C8003781BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DisneyTactic;
+			productName = DisneyTactic;
+			productReference = 396D87432096A7C8003781BB /* DisneyTactic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		396D875A2096A7C8003781BB /* DisneyTacticTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396D87722096A7C8003781BB /* Build configuration list for PBXNativeTarget "DisneyTacticTests" */;
+			buildPhases = (
+				396D87572096A7C8003781BB /* Sources */,
+				396D87582096A7C8003781BB /* Frameworks */,
+				396D87592096A7C8003781BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				396D875D2096A7C8003781BB /* PBXTargetDependency */,
+			);
+			name = DisneyTacticTests;
+			productName = DisneyTacticTests;
+			productReference = 396D875B2096A7C8003781BB /* DisneyTacticTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		396D87652096A7C8003781BB /* DisneyTacticUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396D87752096A7C8003781BB /* Build configuration list for PBXNativeTarget "DisneyTacticUITests" */;
+			buildPhases = (
+				396D87622096A7C8003781BB /* Sources */,
+				396D87632096A7C8003781BB /* Frameworks */,
+				396D87642096A7C8003781BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				396D87682096A7C8003781BB /* PBXTargetDependency */,
+			);
+			name = DisneyTacticUITests;
+			productName = DisneyTacticUITests;
+			productReference = 396D87662096A7C8003781BB /* DisneyTacticUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		396D873B2096A7C8003781BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = XQL;
+				TargetAttributes = {
+					396D87422096A7C8003781BB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					396D875A2096A7C8003781BB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 396D87422096A7C8003781BB;
+					};
+					396D87652096A7C8003781BB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 396D87422096A7C8003781BB;
+					};
+				};
+			};
+			buildConfigurationList = 396D873E2096A7C8003781BB /* Build configuration list for PBXProject "DisneyTactic" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 396D873A2096A7C8003781BB;
+			productRefGroup = 396D87442096A7C8003781BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				396D87422096A7C8003781BB /* DisneyTactic */,
+				396D875A2096A7C8003781BB /* DisneyTacticTests */,
+				396D87652096A7C8003781BB /* DisneyTacticUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		396D87412096A7C8003781BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396D87532096A7C8003781BB /* LaunchScreen.storyboard in Resources */,
+				396D87502096A7C8003781BB /* Assets.xcassets in Resources */,
+				396D874E2096A7C8003781BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396D87592096A7C8003781BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396D87642096A7C8003781BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		396D873F2096A7C8003781BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396D874B2096A7C8003781BB /* ViewController.m in Sources */,
+				396D87562096A7C8003781BB /* main.m in Sources */,
+				396D87482096A7C8003781BB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396D87572096A7C8003781BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396D87602096A7C8003781BB /* DisneyTacticTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396D87622096A7C8003781BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396D876B2096A7C8003781BB /* DisneyTacticUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		396D875D2096A7C8003781BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 396D87422096A7C8003781BB /* DisneyTactic */;
+			targetProxy = 396D875C2096A7C8003781BB /* PBXContainerItemProxy */;
+		};
+		396D87682096A7C8003781BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 396D87422096A7C8003781BB /* DisneyTactic */;
+			targetProxy = 396D87672096A7C8003781BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		396D874C2096A7C8003781BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				396D874D2096A7C8003781BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		396D87512096A7C8003781BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				396D87522096A7C8003781BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		396D876D2096A7C8003781BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		396D876E2096A7C8003781BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		396D87702096A7C8003781BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N3BP455538;
+				INFOPLIST_FILE = DisneyTactic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xql.DisneyTactic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		396D87712096A7C8003781BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N3BP455538;
+				INFOPLIST_FILE = DisneyTactic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xql.DisneyTactic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		396D87732096A7C8003781BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N3BP455538;
+				INFOPLIST_FILE = DisneyTacticTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xql.DisneyTacticTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DisneyTactic.app/DisneyTactic";
+			};
+			name = Debug;
+		};
+		396D87742096A7C8003781BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N3BP455538;
+				INFOPLIST_FILE = DisneyTacticTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xql.DisneyTacticTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DisneyTactic.app/DisneyTactic";
+			};
+			name = Release;
+		};
+		396D87762096A7C8003781BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N3BP455538;
+				INFOPLIST_FILE = DisneyTacticUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xql.DisneyTacticUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DisneyTactic;
+			};
+			name = Debug;
+		};
+		396D87772096A7C8003781BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N3BP455538;
+				INFOPLIST_FILE = DisneyTacticUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xql.DisneyTacticUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DisneyTactic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		396D873E2096A7C8003781BB /* Build configuration list for PBXProject "DisneyTactic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396D876D2096A7C8003781BB /* Debug */,
+				396D876E2096A7C8003781BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		396D876F2096A7C8003781BB /* Build configuration list for PBXNativeTarget "DisneyTactic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396D87702096A7C8003781BB /* Debug */,
+				396D87712096A7C8003781BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		396D87722096A7C8003781BB /* Build configuration list for PBXNativeTarget "DisneyTacticTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396D87732096A7C8003781BB /* Debug */,
+				396D87742096A7C8003781BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		396D87752096A7C8003781BB /* Build configuration list for PBXNativeTarget "DisneyTacticUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396D87762096A7C8003781BB /* Debug */,
+				396D87772096A7C8003781BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 396D873B2096A7C8003781BB /* Project object */;
+}
